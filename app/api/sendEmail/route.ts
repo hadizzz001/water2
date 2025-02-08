@@ -20,7 +20,7 @@ export async function POST(request: Request) {
     // Send email using Resend
     await resend.emails.send({
       from: "info@anazon.hadizproductions.com",
-      to: "info@waterandpools.com",
+      to: "info@cryotechlb.com",
       subject: "New message from your website",
       text: `Name: ${aname}\nEmail: ${email}\nMessage: ${message}`,
     });
